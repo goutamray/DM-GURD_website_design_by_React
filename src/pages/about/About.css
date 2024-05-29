@@ -1,0 +1,40 @@
+
+.about{
+  background-color: #0037c1;
+  padding: 50px 0px;
+}
+.head-title h3{
+    color: #fff;
+}
+
+
+.photo img{
+width: 400px;
+}
+.about-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 0px;
+
+}
+
+.about-content h2{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.about-content h5{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.about-content h4{
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.thank-you{
+  padding: 80px 0px;
+}

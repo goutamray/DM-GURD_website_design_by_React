@@ -1,0 +1,37 @@
+
+
+.replace-rules{
+  padding: 80px 0px;
+  background-color: #0037c1;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.important-content{
+  padding: 50px 0px;
+}
+
+.important-content h4{
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+.replace-content{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.replace-content p{
+   font-size: 17px;
+   font-weight: 400;
+}
+.replace-content p.text-class{
+   font-size: 17px;
+   font-weight: 400;
+   margin-top: 15px;
+}
