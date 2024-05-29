@@ -1,0 +1,119 @@
+
+.header{
+  background-color: #1f2024;
+  padding: 8px 0px;
+  display: flex;
+  align-items: center;
+}
+ .part1 {
+
+}
+ .part1 a img{
+  width: 80px;
+}
+
+ .part2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+ .part2 .menu ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+ 
+
+}
+
+.part2 .menu ul li a{
+   font-size: 16px;
+   font-weight: 400;
+   color: #fff;
+   text-transform: capitalize;
+}
+
+.part2 .menu ul li a:hover{
+   color: var(--hover-color);
+   transition: all 0.3s ease-in-out;
+}
+
+.part3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.part3 .support-btn{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.part3 .support-btn a.order-btn{
+     padding: 12px 30px;
+     background-color: var(--btn-color);
+     font-size: 13px;
+     font-weight: 500;
+     color: #fff;
+     text-transform: uppercase;
+     display: flex;
+     gap: 8px;
+     align-items: center;
+     transition: all 0.3s ease-in-out;
+     border-radius: 4px;
+   
+
+}
+.part3 .support-btn a.order-btn span svg{
+     font-size: 13px;
+     font-weight: 500;
+     color: #fff;
+}
+
+.part3 .support-btn a.order-btn:hover{
+  background-color: #00a2e7;
+  border-radius: 4px;
+}
+
+.part3 .support-btn a.support-btn{
+  padding: 12px 30px;
+  background-color: var(--btn2-color);
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  border-radius: 4px;
+}
+.part3 .support-btn a.support-btn:hover{
+  background-color:#006597;
+  border-radius: 4px;
+
+}
+
+
+.part3 .support-btn a.support-btn span svg{
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.bottom-footer{
+  background-color: #3b3b3b;
+  padding: 20px 0px;
+}
+.bottom-footer p{
+  color: #C0BFBF;
+  text-align: center;
+}
+.bottom-footer p a{
+  color: #fff;
+}
+
+
+
+
+
+

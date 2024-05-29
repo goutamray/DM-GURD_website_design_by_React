@@ -1,0 +1,144 @@
+
+/***** Banner css *****/
+.banner {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #50abff;
+
+}
+
+.banner h2{
+  font-size: 48px;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.banner p{
+  font-size: 16px;
+  padding-right: 30px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.heading-content img{
+  height: 350px;
+  width: 100%;
+}
+
+
+/***** Facebook account css *****/
+.facebook-account{
+   padding: 80px 0px;
+
+}
+
+.facebook-content{
+   padding-right: 50px;
+ 
+}
+
+.facebook-content h5{
+   font-size: 14px;
+   font-weight: 600;
+   color: var(--primary-color);
+   padding-left: 50px;
+   padding-bottom: 30px;
+   padding-top: 80px;
+}
+.facebook-content h2{
+    font-size: 46px;
+    font-weight: 700;
+    color: #485057;
+}
+
+.facebook-content p{
+   font-size: 16px;
+   font-weight: 400;
+   color: #000;
+   text-align: center;
+   padding-top: 20px;
+}
+.all-image .all-right-photo{
+position: relative;
+}
+.all-image .all-right-photo .image-1 img{
+  border-radius: 10px;
+}
+.all-image .all-right-photo .image-2 img {
+  position: absolute;
+  left: -63px;
+  top: 27%;
+  width: 140px;
+}
+
+/* top item */
+.top-item{
+  background-color: #f6f1ed;
+  padding: 60px 0px;
+}
+.top-item h2{
+   font-size: 40px;
+   font-weight: 700;
+
+}
+
+.single-product{
+  display: flex;
+  gap: 20px;
+  border: 2px dashed #000;
+  margin: 20px 0px ;
+}
+.single-product .product-name{
+  width: 60%;
+}
+.single-product .product-name h3{
+ font-size: 20px;
+ font-weight: 500;
+ padding: 10px;
+}
+
+.single-product .product-count{
+width: 12%;
+}
+.single-product .product-count h4{
+   font-size: 16px;
+   font-weight: 600;
+   text-align: center;
+   padding: 10px;
+   border-left: 2px dashed #000;;
+   border-right: 2px dashed #000;;
+}
+.single-product .product-count h4  span{
+   font-size: 16px;
+   font-weight: 400;
+   color: #485057
+}
+.single-product .product-buy{
+   width: 28%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   gap: 15px;
+   padding-right: 20px;
+}
+
+.single-product .product-buy .buy-btn a{
+  border-radius: 22px 22px 22px 22px;
+  padding: 10px 18px 10px 18px;
+  color: #FFFFFF;
+  background-color: #1877F2;
+  transition: all 0.2s;
+}
+
+.top-item-account h2{
+  font-size: 40px;
+   font-weight: 700;
+}
+
+/* testimonial section  */
+.testimonial{
+  padding: 80px 0px;
+}

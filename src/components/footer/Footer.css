@@ -1,0 +1,56 @@
+.footer{
+   padding: 80px 0px;
+   background-color: black;
+}
+
+.footer-part1 {
+  
+}
+
+
+.footer-part1 h2{
+   color: #fff;
+   font-size: 32px;
+   font-weight: 600;
+   margin-bottom: 15px;
+}
+
+
+.footer-part1 h5{
+   font-size: 14px;
+   font-weight: 400;
+   color: #fff;
+   margin-bottom: 10px;
+}
+.footer-part2 p{
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.footer-part3 {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-part3 a{
+  padding: 12px 30px;
+  background-color: var(--btn-color);
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.footer-part3 .support-btn a.order-btn span svg{
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+}
+
+
