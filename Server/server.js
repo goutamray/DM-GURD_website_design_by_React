@@ -3,15 +3,14 @@ import express from "express"
 import colors from "colors"
 import dotenv from "dotenv"
 import userRouter from "./routes/user.js"
+import { errorHandler } from "./middlewares/errorHandler.js";
 
-// env config 
+// initialization 
 dotenv.config();
+const app = express();  
 
-// port config 
-const PORT = process.env.PORT || 6060 
-
-// initilization express
-const app = express(); 
+// invironment var 
+const PORT = process.env.PORT || 6060;
 
 
 // app support 
@@ -26,6 +25,9 @@ app.use(express.static("public"));
 // app route 
 app.use("/api/v1/user", userRouter); 
 
+
+// error handler 
+app.use(errorHandler)
 
 // listen server 
 app.listen(PORT, () => {

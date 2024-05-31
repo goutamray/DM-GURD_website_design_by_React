@@ -2,11 +2,22 @@
 import Layout from "../components/layout/Layout";
 import About from "../pages/about/About";
 import Contact from "../pages/contact/Contact";
+import Dashboard from "../pages/myAccount/dashboard/Dashboard";
+import Order from "../pages/myAccount/order/Order";
 import Home from "../pages/home/Home";
 import MyAccount from "../pages/myAccount/MyAccount";
 
+
+
 import Replace from "../pages/replace/Replace";
 import Tips from "../pages/tips/Tips";
+import Download from "../pages/myAccount/download/Download";
+import Address from "../pages/myAccount/address/Address";
+import AccountDetail from "../pages/myAccount/accountDetails/AccountDetail";
+import Logout from "../pages/myAccount/logout/Logout";
+import ChangePassword from "../pages/myAccount/changePassword/ChangePassword";
+
+
 
 // create public Router 
 const publicRoute = [
@@ -35,10 +46,42 @@ const publicRoute = [
     },
     {
       path : "/my-account",
-      element : <MyAccount /> 
-    },
+      element : <MyAccount />,
+      children : [
+        {
+          path : "dashboard",
+          element : <Dashboard />
+        
+        },
+        {
+          path : "orders",
+          element : <Order /> 
+        },
+        {
+          path : "downloads",
+          element : <Download /> 
+        },
+        {
+          path : "address",
+          element : <Address /> 
+        },
+        {
+          path : "account-details",
+          element : <AccountDetail /> 
+        },
+        {
+          path : "change-password",
+          element : <ChangePassword />  
+        },
+        {
+          path : "logout",
+          element : <Logout />
+        },
+      ] 
 
-    ]
+    }
+  ]
+
   }
 ]
 
