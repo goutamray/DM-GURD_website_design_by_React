@@ -1,6 +1,7 @@
 import { MdShoppingBag } from "react-icons/md";
 
 import "./Download.css"
+import { Link } from "react-router-dom";
 const Download = () => {
   return (
     <>
@@ -10,7 +11,7 @@ const Download = () => {
            <p> No downloads available yet. </p>
         </div>
         <div className="download-btn">
-           <button> Browse Product </button>
+            <Link to="/shop"> Browse Product </Link>  
         </div>
      </div>
     </>

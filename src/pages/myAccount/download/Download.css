@@ -20,7 +20,7 @@
    font-size: 15px;
 }
 
-.download-btn button{
+.download-btn  a{
 background-color: var(--btn-color);
 padding: 6px 20px;
 border-radius: 4px;
