@@ -1,0 +1,129 @@
+.checkout {
+  padding: 60px 0px;
+  background-color: var(--secondary-color);
+}
+
+.checkout h2 {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+
+.checkout-details {
+  padding: 60px 0px;
+}
+
+/*******  form csss  ******/
+.contact-form {
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 5px;
+}
+
+.contact-form h2 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.form form input {
+  padding: 8px 15px;
+}
+
+label span{
+  color: red;
+}
+
+.form form button {
+  background-color: var(--btn-color);
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  font-size: 15px;
+  padding: 8px 25px;
+  margin-top: 20px;
+}
+
+.additional {
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 5px;
+}
+
+.additional h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.additional p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* right part */
+.product-title-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.product-title-data  h4{
+  font-size: 18px;
+  font-weight: 500;
+}
+.product-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.product-name h6 {
+  padding-right: 30px;
+}
+
+.product-sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-top: 1px solid rgb(147, 147, 147);
+  border-bottom: 1px solid rgb(186, 186, 186);
+}
+.product-sub  h5{
+  font-size: 16px;
+  font-weight: 500;
+}
+.product-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.product-total h5{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.payment-box-all{
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 5px;
+}
+.payment-box-all input{
+  width: 25px;
+  position: relative;
+  padding: 5px;
+  top: 2px;
+}
+.payment-box-all button{
+  background-color: var(--btn-color);
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+}

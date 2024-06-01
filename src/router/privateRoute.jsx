@@ -1,4 +1,6 @@
 import Layout from "../components/layout/Layout";
+import Cart from "../pages/cart/Cart";
+import Checkout from "../pages/checkout/Checkout";
 import Shop from "../pages/shop/Shop";
 
 
@@ -10,6 +12,14 @@ const privateRoute = [
       {
         path : "/shop",
         element : <Shop /> 
+      },
+      {
+        path : "/checkout",
+        element : <Checkout /> 
+      },
+      {
+        path : "/cart",
+        element : <Cart /> 
       }
     ]
 
