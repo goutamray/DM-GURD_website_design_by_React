@@ -150,6 +150,13 @@ position: relative;
 
 /********* Responsive css *********/
 @media (min-width : 320px) and (max-width: 576px){
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    padding: 0px !important;
+  }
   .banner .banner-left h2 {
     font-size: 35px;
     padding-top: 0px;

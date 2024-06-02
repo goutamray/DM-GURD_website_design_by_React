@@ -1,44 +1,19 @@
 
-.header{
-  background-color: #1f2024;
-  padding: 8px 0px;
-  display: flex;
-  align-items: center;
-  position: sticky;
-  top: 0%;
-  width: 100%;
-  z-index: 999;
-}
- .part1 a img{
+.navbar-brand img{
   width: 80px;
 }
-
- .part2 {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
- .part2  ul{
-    display: flex;
-    align-items: center;
-    gap: 25px;
+ul li.nav-item.me-2 {
+  padding: 0px;
 }
 
-.part2  ul li a{
-   font-size: 16px;
-   font-weight: 400;
-   color: #fff;
-   text-transform: capitalize;
+.collapse.navbar-collapse.my-custom ul li a{
+  font-size: 18px;
+  font-weight: 500;
 }
-
-.part2  ul li a:hover{
-   color: var(--hover-color);
-   transition: all 0.3s ease-in-out;
+.collapse.navbar-collapse.my-custom ul li.my-btn{
+  padding-left: 50px;
 }
-.part2  ul li.my-btn{
-  padding-left: 60px;
-}
-.part2  ul li.my-btn a{
+.collapse.navbar-collapse.my-custom ul li.my-btn a{
   padding: 12px 30px;
   background-color: var(--btn-color);
   font-size: 13px;
@@ -51,26 +26,12 @@
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
-
-.part2 input{
-  display: none;
-}
-.part2 span{
-  display: none;
-}
-
-.part2 ul li a.order-btn span svg{
-     font-size: 13px;
-     font-weight: 500;
-     color: #fff;
-}
-
-.part2 ul li a.order-btn:hover{
+.collapse.navbar-collapse.my-custom ul li.my-btn a:hover{
   background-color: #00a2e7;
   border-radius: 4px;
 }
 
-.part2  ul li a.support-btn{
+.collapse.navbar-collapse.my-custom  ul li a.support-btn{
   padding: 12px 30px;
   background-color: var(--btn2-color);
   font-size: 13px;
@@ -83,109 +44,53 @@
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
-.part2  ul li a.support-btn:hover{
+.collapse.navbar-collapse.my-custom  ul li a.support-btn:hover{
   background-color:#006597;
   border-radius: 4px;
 
 }
 
-
-.part2  ul li a.support-btn span svg{
-  font-size: 19px;
-  font-weight: 500;
-  color: #fff;
-}
-
-.bottom-footer{
-  background-color: #3b3b3b;
-  padding: 20px 0px;
-}
-.bottom-footer p{
-  color: #C0BFBF;
-  text-align: center;
-}
-.bottom-footer p a{
-  color: #fff;
-}
-
-
-
-
-
 /* Responsive css */
-@media (min-width : 320px) and (max-width: 768px){
-  .part1{
-    width: 20%;
+ @media (min-width : 320px) and (max-width: 768px){
+  .container.my-container{
+    padding: 0px;
   }
 
-  .part2{
-    width: 80%;
-    position: relative;
-  }
-  .part2 span {
-    position: absolute;
-    top: 36%;
-    right: 3%;
-    pointer-events: none;
-    display: block;
-   }
-   
-  .part2  span svg{
-    color: #fff;
-    font-size: 25px;
-
-   
-  }
-  .part2 input.check-box {
-    font-size: 50px;
-    position: absolute;
-    top: 31%;
-    right: 3%;
-    width: 27px;
-    height: 26px;
-    display: block;
-    opacity: 0;
-    cursor: pointer;
-}
-
-  .part2 input.check-box:checked ~ ul{
-    opacity: 1;
-    visibility: visible;
+  .navbar-brand img{
+    width: 80px;
+    padding-left: 10px;
   }
 
-  .part2  ul{
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 100%;
-      right: -6%;
-      gap: 10px;
-      visibility: hidden;
-      opacity: 0;
-      background-color: rgb(144, 144, 144);
-      width: 100%;
-      border-radius: 4px;
-      padding: 20px 0px;
+  button.navbar-toggler {
+    margin-right: 10px;
+  }
+
+  .collapse.navbar-collapse.my-custom{
+    width: 100%;
+    padding: 0px !important;
   } 
-  .part2 .menu ul li{
+  ul li.nav-item.me-2 {
     padding: 0px 20px;
   }
-  .part2 .menu ul li a{
-    padding: 5px 0px;
+  .collapse.navbar-collapse.my-custom ul li.my-btn{
+    padding-left: 20px;
+    margin-bottom: 10px;
+    width: 200px !important;
   }
-  .part2 ul li.my-btn{
+
+  .collapse.navbar-collapse.my-custom  ul li a.support-btn{
+    width: 160px !important;
+  }
+}
+  
+@media (min-width : 768px) and (max-width: 992px){
+  .collapse.navbar-collapse.my-custom ul li.my-btn{
     padding-left: 0px;
+    margin-bottom: 10px;
+    width: 160px !important;
   }
 
-  .part2 ul li a.order-btn span svg{
-    display: none;
-  }
-  .part2 ul li a.support-btn span svg {
-    display: none;
+  .collapse.navbar-collapse.my-custom  ul li a.support-btn{
+    width: 160px !important;
   }
 }
-
-@media (min-width : 576px) and (max-width: 768px){
-   
-}
-
