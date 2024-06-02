@@ -35,7 +35,7 @@ const MyAccount = () => {
                   <li> <Link to="logout"> log out </Link></li>
               </ul>
             </div>
-            <div className="col-md-9 pl-3">
+            <div className="col-md-9 pl-3 custom-padding  ">
                 <Outlet /> 
             </div>
           </div>

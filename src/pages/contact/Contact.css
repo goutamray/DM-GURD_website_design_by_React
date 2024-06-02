@@ -122,6 +122,18 @@ margin-bottom: 5px;
     font-size: 20px;
   }
   
+  .contact-left .contact-box span {
+    padding: 15px !important; 
+  }
+  .contact-left .contact-box span svg{
+    font-size: 20px;
+  }
+  .contact-left .contact-box .data-box p {
+    font-size: 15px;
+  }
+  .news-btn input {
+    width: 59%;
+}
 }
 
 @media (min-width : 320px) and (max-width: 768px){

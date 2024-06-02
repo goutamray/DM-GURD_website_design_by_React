@@ -29,4 +29,21 @@ border: none;
 
 }
 
+/****** Responsive css ******/
+@media (min-width : 320px) and (max-width: 450px){
+  .download{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     gap: 20px;
+     align-items: flex-start;
+  }
+  .download-text {
+   text-align: start;
+  }
+.download-btn{
+  width: 100%;
+  display: block;
+}
 
+}

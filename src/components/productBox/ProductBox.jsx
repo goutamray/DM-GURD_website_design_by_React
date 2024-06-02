@@ -5,7 +5,7 @@ import product1 from "../../assets/asset1.jpeg"
 const ProductBox = () => {
   return (
     <>
-            <div className="col-md-3"> 
+            <div className="col-md-4 col-sm-6 col-xs-6"> 
               <div className="product-box">
                   <img src={product1} alt="" />
                   <div className="all-product-data">

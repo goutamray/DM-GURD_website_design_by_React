@@ -19,7 +19,7 @@ const Checkout = () => {
       <div className="checkout-details">
         <div className="container">
           <div className="row">
-            <div className="col-md-7">
+            <div className="col-lg-7 col-md-12 ">
         
               <div className="contact-form p-5">
                 <h2> Billing Details </h2>
@@ -84,7 +84,7 @@ const Checkout = () => {
 
             </div>
 
-            <div className="col-md-5">
+            <div className="col-lg-5 col-md-12">
                <div className="additional p-5">
                    <h3> Your Order </h3>
                    <div className="row">

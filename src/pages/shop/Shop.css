@@ -63,3 +63,19 @@
   border-radius: 4px;
 }
 
+@media (min-width : 320px) and (max-width: 576px){
+  .shop-title h5{
+    font-size: 16px;
+  }
+  .cat-select select{
+    margin-top: 15px;
+    padding: 6px;
+  }
+  .shop{
+    padding: 40px 0px;
+
+  }
+  .product-box  img{
+    height: 200px;
+  }
+}

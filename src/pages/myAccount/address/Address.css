@@ -7,6 +7,7 @@
   border: 1px solid rgb(203, 203, 203);
   border-radius: 5px;
   padding: 20px;
+  margin-top: 20px;
 }
 .edit-data button{
   background-color: var(--btn-color);
@@ -18,3 +19,14 @@
   margin-bottom: 8px;
 }
 
+
+/****** responsive csss *****/
+@media (min-width : 320px) and (max-width: 768px){
+  .edit-data{
+    margin-top: 10px;
+  }
+
+  .shipping {
+     margin-top: 20px;
+  }
+}

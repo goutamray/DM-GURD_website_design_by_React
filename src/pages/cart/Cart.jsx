@@ -19,7 +19,7 @@ const Cart = () => {
           <div className="cart-details py-5">
             <div className="container">
               <div className="row">
-                <div className="col-md-7">
+                <div className=" col-lg-7 col-md-12">
                    <div className="cart-product">
                       <table className="table ">
                         <thead>
@@ -33,7 +33,7 @@ const Cart = () => {
                         </thead>
                         <tbody>
                            <tr>
-                            <td> 
+                            <td className="img-hide"> 
                               <div className="pro-img">
                                   <span> <RxCross2 /> </span>
                                   <img src={pro1} alt="" />
@@ -52,7 +52,7 @@ const Cart = () => {
                    </div>
                 </div>
 
-                <div className="col-md-5">
+                <div className="col-lg-5 col-md-12">
                  <div className="additional p-5">
                     <h3 className="mb-3"> Cart Totals </h3>
                     <div className="row">

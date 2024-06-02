@@ -15,7 +15,32 @@
     border-radius: 4px;
 }
 
+/********* Responsive css *********/
 
+@media (min-width : 320px) and (max-width: 768px){
+  .order-table table{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+     border-style: none; 
+    border-width: 0;
+  }
+ .order-table table thead tr th{
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .order-table table tbody tr td{
+  display: flex;
+  flex-direction: column;
+
+ }
+}
 
 
 

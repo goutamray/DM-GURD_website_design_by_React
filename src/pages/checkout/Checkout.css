@@ -60,7 +60,7 @@ label span{
   margin-bottom: 5px;
 }
 
-/* right part */
+/***** right part *******/
 .product-title-data {
   display: flex;
   align-items: center;
@@ -78,11 +78,9 @@ label span{
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 .product-name h6 {
   padding-right: 30px;
 }
-
 .product-sub {
   display: flex;
   align-items: center;
@@ -105,7 +103,6 @@ label span{
   font-size: 16px;
   font-weight: 500;
 }
-
 .payment-box-all{
   border: 1px solid rgb(203, 203, 203);
   border-radius: 5px;
@@ -127,3 +124,19 @@ label span{
   border-radius: 4px;
   font-size: 20px;
 }
+
+/***** Responsive css  *******/
+@media (min-width : 320px) and (max-width: 576px){
+  .checkout{
+    padding: 35px 0px;
+  }
+  .checkout h2 {
+    font-size: 20px;
+  }
+  .checkout-details {
+    padding: 30px 0px;
+  }
+}
+
+
+

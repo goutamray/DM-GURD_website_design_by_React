@@ -39,4 +39,24 @@
   color: #fff;
 }
 
+/********* Responsive css *********/
+@media (min-width : 320px) and (max-width: 576px){
+  .account{
+    padding: 20px 0px;
+  }
+  .breadcrumb  h2{
+    font-size: 20px;
+  }
+  .col-md-9.pl-3.custom-padding{
+    margin-top: 25px;
+ }
+}
 
+@media (min-width : 576px) and (max-width: 768px){
+  .account{
+    padding: 50px 0px;
+  }
+  .col-md-9.pl-3.custom-padding{
+     margin-top: 25px;
+  }
+}

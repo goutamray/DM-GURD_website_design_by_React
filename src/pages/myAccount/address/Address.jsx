@@ -10,7 +10,7 @@ const Address = () => {
             <div className="col-md-6">
                <div className="billing">
                 <h4> Billing address </h4>
-                <div className="edit-data mt-5">
+                <div className="edit-data ">
                   <button> Edit </button>
                   <p> Goutam Ray </p>
                   <p> Rangpur, Bangladesh </p>
@@ -20,7 +20,7 @@ const Address = () => {
             <div className="col-md-6">
                 <div className="shipping ">
                   <h4> Shipping address </h4>
-                  <div className="edit-data mt-5">
+                  <div className="edit-data">
                   <button> Add </button>
                   <p> You have not set up this type of address yet.</p>
                  <p> Dhaka, Bangladesh </p>
