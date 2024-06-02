@@ -17,6 +17,7 @@ body {
   box-sizing: border-box;
   font-family: "Jost", sans-serif;
   background-color: #f7f7f7; 
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 ul{

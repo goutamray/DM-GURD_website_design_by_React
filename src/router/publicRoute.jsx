@@ -15,6 +15,8 @@ import Address from "../pages/myAccount/address/Address";
 import AccountDetail from "../pages/myAccount/accountDetails/AccountDetail";
 import Logout from "../pages/myAccount/logout/Logout";
 import ChangePassword from "../pages/myAccount/changePassword/ChangePassword";
+import Login from "../pages/login/Login";
+import Register from "../pages/register/Register";
 
 
 
@@ -74,7 +76,15 @@ const publicRoute = [
         },
       ] 
 
-    }
+    },
+    {
+      path : "/login",
+      element : <Login />
+    },
+    {
+      path : "/register",
+      element : <Register /> 
+    },
   ]
 
   }

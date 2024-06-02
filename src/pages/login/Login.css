@@ -1,0 +1,15 @@
+
+.login-form form .show-pass {
+  position: relative;
+}
+.login-form form .mb-3.show-pass span svg{
+ position: absolute;
+ right: 3%;
+ top: 55%;
+} 
+
+.account-btn p a:hover{
+  text-decoration: underline;
+}
+
+
