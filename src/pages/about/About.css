@@ -6,8 +6,6 @@
 .head-title h3{
     color: #fff;
 }
-
-
 .photo img{
 width: 400px;
 }
@@ -16,9 +14,7 @@ width: 400px;
   flex-direction: column;
   gap: 20px;
   padding: 40px 0px;
-
 }
-
 .about-content h2{
   color: #fff;
   font-size: 50px;
@@ -34,7 +30,48 @@ width: 400px;
   font-size: 36px;
   font-weight: 700;
 }
-
 .thank-you{
   padding: 60px 0px;
 }
+
+
+/********* Responsive css *********/
+@media (min-width : 320px) and (max-width: 576px){
+  .photo {
+     display: flex;
+     justify-content: center;
+  }
+  .photo img {
+    width: 200px;
+  }
+  .about-content h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .about-content h5 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .about-content h4{
+    text-align: center;
+    font-size: 20px;
+  }
+}
+@media (min-width : 576px) and (max-width: 768px){
+  .photo img {
+    width: 250px;
+  }
+  .about-content h2 {
+    font-size: 25px;
+  }
+  .about-content h5 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width : 768px) and (max-width: 992px){
+  .photo img {
+    width: 300px;
+  }
+}
+

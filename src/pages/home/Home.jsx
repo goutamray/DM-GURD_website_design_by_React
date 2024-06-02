@@ -14,11 +14,14 @@ const Home = () => {
       <div className="banner">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
-              <h2> DM Gurd.. </h2>
-              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis dolore veritatis quia minima quod sapiente vero voluptate sit facere culpa. Qui impedit eos quam quae facilis est corrupti porro perspiciatis?</p>
+            <div className="col-md-6 col-sm-12">
+              <div className="banner-left">
+                 <h2> DM Gurd.. </h2>
+                  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis dolore veritatis quia minima quod sapiente vero voluptate sit facere culpa. Qui impedit eos quam quae facilis est corrupti porro perspiciatis?</p>
+              </div>
+            
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-12">
               <div className="heading-content">
                 <img src={img3} alt="" />
               </div>
@@ -32,14 +35,14 @@ const Home = () => {
         <div className="container">
           <div className="row">
            
-              <div className="col-md-6">
+              <div className="col-md-6 col-sm-12">
                   <div className="facebook-content">
                     <h5> Exclusive benefits </h5>
                     <h2> Buy Facebook Accounts For Ad From DM Gurd.</h2>
                     <p> Our main priority is product quality and availability. Based on more than two years of experience in affiliate marketing, we carefully select and test FB accounts for advertising Facebook Ad and Facebook BMs. We also try to maintain a low cost in the accounts market. <br/> You can buy from us: facebook warmed up accounts, Facebook Softreg PVA Accounts, Facebook Softreg PVA Accounts with BM, Business Manager Facebook 250 $, Verified & Unlimited FB BM, Softreg tiktok ads, etc. </p>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 col-sm-12">
                   <div className="all-image">
                       <div className="all-right-photo">
                         <div className="image-1">

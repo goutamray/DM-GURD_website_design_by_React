@@ -25,7 +25,7 @@ const Contact = () => {
       <div className="contact-details">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-12">
               <div className="contact-left">
                   <div className="contact-box">
                     <span> <MdEmail /> </span>
@@ -75,7 +75,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="col-md-8">
+            <div className="col-lg-8  col-md-12">
              <div className="contact-form p-5">
                 <div className="form">
                   <form action="">

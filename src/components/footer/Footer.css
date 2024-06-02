@@ -53,4 +53,25 @@
   color: #fff;
 }
 
+/***** Responsive css *****/
+@media (min-width : 320px) and (max-width: 768px){
+  .footer-part1 h2 {
+    text-align: center;
+ }
+ .footer-part1 h5{
+  text-align: center;
+ }
+ .footer-part2 p{
+  text-align: center;
+ }
+
+ .footer-part3{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+ }
+
+}
+
+
 

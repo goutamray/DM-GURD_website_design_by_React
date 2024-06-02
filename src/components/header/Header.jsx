@@ -30,9 +30,7 @@ const Header = () => {
                 <li>
                   <Link to="/replace-rule"> Replace Rules </Link>
                 </li>
-                <li>
-                  <Link to="/tips"> Tips </Link>
-                </li>
+              
                 <li>
                   <Link to="/contact"> Contact </Link>
                 </li>

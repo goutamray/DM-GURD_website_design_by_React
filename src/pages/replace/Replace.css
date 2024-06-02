@@ -35,3 +35,12 @@
    font-weight: 400;
    margin-top: 15px;
 }
+
+/********* Responsive css *********/
+@media (min-width : 320px) and (max-width: 768px){
+  .replace-rules {
+    padding: 30px 0px;
+  }
+}
+
+

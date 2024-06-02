@@ -113,5 +113,20 @@ margin-bottom: 5px;
   margin-top: 20px;
 }
 
+/********* Responsive css *********/
+@media (min-width : 320px) and (max-width: 576px){
+  .contact{
+    padding: 40px 0px;
+  }
+  .contact h2{
+    font-size: 20px;
+  }
+  
+}
 
+@media (min-width : 320px) and (max-width: 768px){
+  .contact-form{
+    margin-top: 30px;
+  }
+}
 

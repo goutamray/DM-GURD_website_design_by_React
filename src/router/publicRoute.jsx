@@ -10,7 +10,6 @@ import MyAccount from "../pages/myAccount/MyAccount";
 
 
 import Replace from "../pages/replace/Replace";
-import Tips from "../pages/tips/Tips";
 import Download from "../pages/myAccount/download/Download";
 import Address from "../pages/myAccount/address/Address";
 import AccountDetail from "../pages/myAccount/accountDetails/AccountDetail";
@@ -31,10 +30,6 @@ const publicRoute = [
     {
       path : "/about-us",
       element : <About />
-    },
-    {
-      path : "/tips",
-      element : <Tips />
     },
     {
       path : "/replace-rule",

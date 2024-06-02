@@ -14,12 +14,12 @@ const About = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-6 ">
               <div className="photo">
                 <img src={logo} alt="" />
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-6">
                <div className="about-content">
                 <h2> DEAR CUSTOMERS </h2>
                 <h5> We Are Working since 2016 to till now with hour thousand satisfied clients from the world. Our main priority is product quality and availability. Based on more than two years of experience in affiliate marketing, we carefully select and test FB accounts for advertising Facebook Ad and Facebook BMs. We also try to maintain a low cost in the accounts market. You can buy from us: facebook warmed up accounts, Facebook Softreg PVA Accounts, Facebook Softreg PVA Accounts with BM, Business Manager Facebook 250 $, Verified & Unlimited FB BM, Softreg tiktok ads, etc. </h5>

@@ -9,13 +9,13 @@
 
 }
 
-.banner h2{
+.banner .banner-left h2{
   font-size: 48px;
   font-weight: 600;
   padding-top: 50px;
 }
 
-.banner p{
+.banner .banner-left p{
   font-size: 16px;
   padding-right: 30px;
   font-weight: 400;
@@ -26,6 +26,7 @@
 .heading-content img{
   height: 350px;
   width: 100%;
+  border-radius: 5px;
 }
 
 
@@ -101,15 +102,16 @@ position: relative;
 }
 
 .single-product .product-count{
-width: 12%;
-}
+  width: 12%;
+  border-left: 2px dashed #000;
+  border-right: 2px dashed #000;
+  }
 .single-product .product-count h4{
    font-size: 16px;
    font-weight: 600;
    text-align: center;
    padding: 10px;
-   border-left: 2px dashed #000;;
-   border-right: 2px dashed #000;;
+
 }
 .single-product .product-count h4  span{
    font-size: 16px;
@@ -143,3 +145,132 @@ width: 12%;
   padding: 60px 0px;
   background-color: #f6f1ed;
 }
+
+
+
+/********* Responsive css *********/
+@media (min-width : 320px) and (max-width: 576px){
+  .banner .banner-left h2 {
+    font-size: 35px;
+    padding-top: 0px;
+    text-align: center;
+  }
+  .banner{
+    text-align: center;
+  }
+  .heading-content {
+    margin-top: 35px;
+ }
+ .facebook-content h5 {
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+ }
+ .facebook-content h2 {
+  font-size: 35px;
+  text-align: center;
+ }
+  .facebook-content {
+    padding-right: 0px !important; 
+  }
+  .image-1 {
+    padding: 20px;
+  }
+  .all-image .all-right-photo .image-2 img {
+    left: -3%;
+  }
+  .top-item {
+    padding: 32px 0px;
+  }
+  .top-item h2 {
+    font-size: 33px;
+  }
+  .product-box {
+   border: none; 
+  }
+  .single-product{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .single-product .product-name{
+    display: block;
+    width: 100% !important;
+  }
+  .single-product .product-name h3{
+    padding-bottom: 0px;
+  }
+  .single-product  .product-count {
+    display: block;
+    width: 100% !important;
+    border: none;
+  }
+  .single-product  .product-count h4{
+    text-align: start;
+    padding-top: 0px;
+ 
+  }
+  .single-product .product-buy{
+    display: flex;
+    justify-content: flex-start;
+    width: 100% !important;
+    text-align: start;
+    padding-left: 10px;
+    padding-bottom: 10px;
+   }
+   .top-item-account h2 {
+    font-size: 30px;
+  }
+  .title h2 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width : 576px) and (max-width: 768px){
+  .banner .banner-left h2 {
+    font-size: 42px;
+    padding-top: 0px;
+  }
+  .heading-content {
+    margin-top: 33px;
+  }
+  .facebook-content {
+    padding-right: 0px !important; 
+  }
+  .facebook-content h5 {
+    padding-left: 6px;
+    padding-bottom: 12px;
+    padding-top: 0px;
+  }
+  .facebook-content h2 {
+    font-size: 41px;
+  }
+
+  .all-image {
+    margin-top: 30px;
+  }
+  .single-product .product-buy .buy-btn a {
+     border-radius: 4px;
+     padding: 9px; 
+     font-size: 12px;
+
+  }
+  .facebook-content p {
+    text-align: start; 
+  }
+}
+
+@media (min-width : 576px) and (max-width: 768px){
+  .banner .banner-left {
+   padding-top: 50px;
+  }
+  .all-image .all-right-photo .image-2 img {
+    left: -6%;
+ }
+ .facebook-content h2 {
+  font-size: 34px;
+ }
+}
+
+
