@@ -3,17 +3,14 @@
   padding: 60px 0px;
   background-color: var(--secondary-color);
 }
-
 .contact h2{
   color: #fff;
   font-size: 30px;
   text-transform: uppercase;
 }
-
 .contact-details{
   padding: 60px 0px;
 }
-
 .contact-left{
    display: flex;
    flex-direction: column;
@@ -22,11 +19,9 @@
    padding: 25px;
    border-radius: 5px;
 }
-
 .contact-left .contact-box{
-    display: flex;
-    gap: 15px;
-
+  display: flex;
+  gap: 15px;
 }
 .contact-left .contact-box span {
   background-color: #d9ecc6;
@@ -48,19 +43,16 @@
    font-weight: 500;
    color: var(--primary-color) ;
 }
-
 .newslater-box{
   margin-top: 40px;
   background-color: #d9ecc6;
   border-radius: 4px;
   padding: 25px;
 }
-
 .newslater-box h2{
   font-size: 20px;
   font-weight: 500;
 }
-
 .news-btn {
   margin-top: 15px;
 }
@@ -75,7 +67,6 @@
   color: #fff;
   border-radius: 0px 4px 4px 0px;
 }
-
 .follow-btn{
   margin-top: 30px;
   display: flex;
@@ -115,30 +106,31 @@ margin-bottom: 5px;
 
 /********* Responsive css *********/
 @media (min-width : 320px) and (max-width: 576px){
-  .contact{
-    padding: 40px 0px;
-  }
-  .contact h2{
-    font-size: 20px;
-  }
-  
-  .contact-left .contact-box span {
-    padding: 15px !important; 
-  }
-  .contact-left .contact-box span svg{
-    font-size: 20px;
-  }
-  .contact-left .contact-box .data-box p {
-    font-size: 15px;
-  }
-  .news-btn input {
-    width: 59%;
+.contact{
+  padding: 40px 0px;
 }
+.contact h2{
+  font-size: 20px;
+}
+.contact-left .contact-box span {
+  padding: 15px !important; 
+}
+.contact-left .contact-box span svg{
+  font-size: 20px;
+}
+.contact-left .contact-box .data-box p {
+  font-size: 15px;
+}
+.news-btn input {
+  width: 59%;
+}
+
 }
 
 @media (min-width : 320px) and (max-width: 768px){
-  .contact-form{
-    margin-top: 30px;
-  }
+.contact-form{
+   margin-top: 30px;
+}
+
 }
 

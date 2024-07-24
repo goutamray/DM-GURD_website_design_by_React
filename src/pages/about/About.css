@@ -4,7 +4,7 @@
   padding: 60px 0px;
 }
 .head-title h3{
-    color: #fff;
+  color: #fff;
 }
 .photo img{
 width: 400px;
@@ -57,6 +57,8 @@ width: 400px;
     font-size: 20px;
   }
 }
+
+
 @media (min-width : 576px) and (max-width: 768px){
   .photo img {
     width: 250px;

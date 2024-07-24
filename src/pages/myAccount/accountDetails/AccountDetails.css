@@ -1,10 +1,8 @@
 
-
 .account-details{
   border: 1px solid rgb(203, 203, 203);
   border-radius: 5px;
 }
-
 .form form button{
   background-color: var(--btn-color);
   color: #fff;
@@ -14,3 +12,5 @@
   padding: 8px 25px;
   margin-top: 20px;
 }
+
+

@@ -3,27 +3,23 @@
   padding: 60px 0px;
   background-color: var(--secondary-color);
 }
-
 .shop h2{
   color: #fff;
   font-size: 30px;
 }
-
 .shop-product{
   padding: 40px 0px;
 }
-
 .shop-title h5{
-    font-size: 16px;
-    font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
 }
-
 .cat-select {
   text-align: end;
 }
 .cat-select select{
-   padding: 6px 10px;
-   border-radius: 4px;
+  padding: 6px 10px;
+  border-radius: 4px;
 }
 
 /***** product css ******/
@@ -33,12 +29,11 @@
   overflow: hidden;
   margin: 10px 0px;
 }
-
 .product-box  img{
-   width: 100%;
-   height: 300px;
-   object-fit: cover;
-   border-radius: 4px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
 }
 .product-box .all-product-data{
   padding: 12px;
@@ -64,18 +59,18 @@
 }
 
 @media (min-width : 320px) and (max-width: 576px){
-  .shop-title h5{
-    font-size: 16px;
-  }
-  .cat-select select{
-    margin-top: 15px;
-    padding: 6px;
-  }
-  .shop{
-    padding: 40px 0px;
+.shop-title h5{
+  font-size: 16px;
+}
+.cat-select select{
+  margin-top: 15px;
+  padding: 6px;
+}
+.shop{
+  padding: 40px 0px;
+}
+.product-box  img{
+  height: 200px;
+}
 
-  }
-  .product-box  img{
-    height: 200px;
-  }
 }

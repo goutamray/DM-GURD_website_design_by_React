@@ -5,7 +5,6 @@
 ul li.nav-item.me-2 {
   padding: 0px;
 }
-
 .collapse.navbar-collapse.my-custom ul li a{
   font-size: 18px;
   font-weight: 500;
@@ -30,7 +29,6 @@ ul li.nav-item.me-2 {
   background-color: #00a2e7;
   border-radius: 4px;
 }
-
 .collapse.navbar-collapse.my-custom  ul li a.support-btn{
   padding: 12px 30px;
   background-color: var(--btn2-color);
@@ -47,50 +45,46 @@ ul li.nav-item.me-2 {
 .collapse.navbar-collapse.my-custom  ul li a.support-btn:hover{
   background-color:#006597;
   border-radius: 4px;
-
 }
 
-/* Responsive css */
+/******** Responsive css ********/
  @media (min-width : 320px) and (max-width: 768px){
-  .container.my-container{
-    padding: 0px;
-  }
+.container.my-container{
+  padding: 0px;
+}
+.navbar-brand img{
+  width: 80px;
+  padding-left: 10px;
+}
+button.navbar-toggler {
+  margin-right: 10px;
+}
+.collapse.navbar-collapse.my-custom{
+  width: 100%;
+  padding: 0px !important;
+} 
+ul li.nav-item.me-2 {
+  padding: 0px 20px;
+}
+.collapse.navbar-collapse.my-custom ul li.my-btn{
+  padding-left: 20px;
+  margin-bottom: 10px;
+  width: 200px !important;
+}
+.collapse.navbar-collapse.my-custom  ul li a.support-btn{
+  width: 160px !important;
+}
 
-  .navbar-brand img{
-    width: 80px;
-    padding-left: 10px;
-  }
-
-  button.navbar-toggler {
-    margin-right: 10px;
-  }
-
-  .collapse.navbar-collapse.my-custom{
-    width: 100%;
-    padding: 0px !important;
-  } 
-  ul li.nav-item.me-2 {
-    padding: 0px 20px;
-  }
-  .collapse.navbar-collapse.my-custom ul li.my-btn{
-    padding-left: 20px;
-    margin-bottom: 10px;
-    width: 200px !important;
-  }
-
-  .collapse.navbar-collapse.my-custom  ul li a.support-btn{
-    width: 160px !important;
-  }
 }
   
 @media (min-width : 768px) and (max-width: 992px){
-  .collapse.navbar-collapse.my-custom ul li.my-btn{
-    padding-left: 0px;
-    margin-bottom: 10px;
-    width: 160px !important;
-  }
+.collapse.navbar-collapse.my-custom ul li.my-btn{
+  padding-left: 0px;
+  margin-bottom: 10px;
+  width: 160px !important;
+}
+.collapse.navbar-collapse.my-custom  ul li a.support-btn{
+  width: 160px !important;
+}
 
-  .collapse.navbar-collapse.my-custom  ul li a.support-btn{
-    width: 160px !important;
-  }
 }

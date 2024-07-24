@@ -37,7 +37,6 @@
   border-radius: 4px;
   width: 150px;
 }
-
 .footer-part3 .support-btn a.order-btn span svg{
   font-size: 13px;
   font-weight: 500;
@@ -57,20 +56,20 @@
 
 /***** Responsive css *****/
 @media (min-width : 320px) and (max-width: 768px){
-  .footer-part1 h2 {
-    text-align: center;
- }
- .footer-part1 h5{
+.footer-part1 h2 {
   text-align: center;
- }
- .footer-part2 p{
+}
+.footer-part1 h5{
+ text-align: center;
+}
+.footer-part2 p{
   text-align: center;
- }
- .footer-part3{
+}
+.footer-part3{
   display: flex;
   justify-content: center;
   margin-top: 10px;
- }
+}
 
 }
 

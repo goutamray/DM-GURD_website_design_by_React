@@ -2,22 +2,19 @@
   padding: 80px 0px;
   background-color: #0037c1;
 }
-
 .breadcrumb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .account-dashboard{
   padding: 50px 0px;
 }
 .account-dashboard ul{
-   display: flex;
-   flex-direction: column;
-   gap: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
-
 .account-dashboard ul li a{
   padding: 14px 15px;
   display: block;
@@ -29,7 +26,6 @@
   color: black;
   transition: all 0.3s ease-in-out;
 }
-
 .account-dashboard ul li a:hover{
   background-color: var(--btn-color);
   color: #fff;
@@ -41,22 +37,24 @@
 
 /********* Responsive css *********/
 @media (min-width : 320px) and (max-width: 576px){
-  .account{
-    padding: 20px 0px;
-  }
-  .breadcrumb  h2{
-    font-size: 20px;
-  }
-  .col-md-9.pl-3.custom-padding{
-    margin-top: 25px;
- }
+.account{
+  padding: 20px 0px;
+}
+.breadcrumb  h2{
+  font-size: 20px;
+}
+.col-md-9.pl-3.custom-padding{
+  margin-top: 25px;
+}
+
 }
 
 @media (min-width : 576px) and (max-width: 768px){
-  .account{
-    padding: 50px 0px;
-  }
-  .col-md-9.pl-3.custom-padding{
-     margin-top: 25px;
-  }
+.account{
+  padding: 50px 0px;
+}
+.col-md-9.pl-3.custom-padding{
+  margin-top: 25px;
+}
+
 }
